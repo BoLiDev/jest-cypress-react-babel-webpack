@@ -32,7 +32,6 @@ function Calculator() {
     waitingForOperand: false,
   })
   const {value, displayValue, operator, waitingForOperand} = state
-
   function handleKeyDown(event) {
     let {key} = event
 
