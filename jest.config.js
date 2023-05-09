@@ -7,4 +7,5 @@ module.exports = {
     '\\.module.(css|scss)$': 'identity-obj-proxy',
     '\\.(css|scss)$': require.resolve('./test/mock-css.js'),
   },
+  setupFilesAfterEnv: ['@testing-library/jest-dom/extend-expect'],
 }
